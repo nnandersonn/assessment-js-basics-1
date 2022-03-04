@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+var gitDefinition = `Git creates local "snapshots" of files throughout time allowing you to have an automated copy of changes to your files without manually having to maintain the old copies.`
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+var gitHubDefinition = `Github is online storage for files. Local git files can be pushed to a defined github location where they will be saved as well. Github also allows for collaboration and sharing of these files.`
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+var gitInitDefinition = `This initializes the local repository in the folder where it was run.`
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+var gitCloneDefinition = `This command creates a copy of an existing repository and places it into a new directory`
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+var gitStatusDefinition = `This will show changes that haven't been tracked yet and files that arent being tracked. `
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,8 @@
 */
 
 //CODE HERE
+var gitAddDefinition = `git add specifies to git what files/folders we want it to specifically track in our directory`
+var gitAddCode = `git add .`
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,6 +71,8 @@
 */
 
 //CODE HERE
+var gitCommitDefinition = `git commit tells git that we are happy with any changes we have made and are ready for it to take a snapshot of all specified files at this time.`
+var gitCommitCode = `git commit - "initial commit"`
 
 
 //////////////////PROBLEM 8////////////////////
@@ -73,3 +82,4 @@
 */
 
 //CODE HERE
+var gitPushDefinition = `git push will push out your last commit to whatever remote repository you have defined`
